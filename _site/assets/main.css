@@ -1,0 +1,81 @@
+ul{list-style-type:none;}
+a{color:inherit;text-decoration:none;}
+h1,h2{text-align: center;}
+html{font-family: "Open Sans",Arial,serif;}
+#pageContent{text-align:center;}
+
+body {
+  padding: 100px 250px 0;
+  background-color:#F5F5F5;
+  transition: padding 0.15s ease-in;
+}
+
+@media (max-width: 750px){
+  body {
+    padding: 150px 40px 0;
+    transition: padding 0.15s ease-in;
+  }
+  .icoList {
+    right: 20px;
+  }
+}
+
+#mainNav {
+  background: linear-gradient(#1EA434, #0F571C);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+  box-shadow: 0px 4px 10px black;
+}
+   
+.navList,.icoList{text-align:center;}
+
+.navList li{
+  display:inline-block;
+  margin-right:25px;
+  color:white;
+  transition: color 0.15s ease-in;
+  vertical-align: middle;
+}
+
+.navList li:hover {
+  color: #2E2E2E;
+  transition: color 0.15s ease-in;
+}
+
+.navList li img{border: 2px solid #A3A3A3;}
+
+.icoList{
+  position:fixed;
+  right: 10px;
+  z-index: 9999;
+}
+
+.icoList li {
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  line-height: 50px;
+  border-radius: 50%;
+  border: 3px solid #A3A3A3;
+  background-color: #D1D1D1;
+  color: #303030;
+  transition: color 0.15s ease-in, background-color 0.15s ease-in;
+  font-size: 2em;
+  box-shadow: 3px 5px 7px black;
+}
+
+.icoList li:hover {
+  color: #D1D1D1;
+  background-color: #303030;
+  transition: color 0.15s ease-in, background-color 0.15s ease-in;
+}
+
+h2 {
+  margin-top: -25px;
+  font-style: italic;
+  color: #757575;
+  font-size: 20px;
+}

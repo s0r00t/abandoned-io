@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<generator uri="http://jekyllrb.com" version="2.4.0">Jekyll</generator>
+<link href="/feed.xml" rel="self" type="application/atom+xml" />
+<link href="/" rel="alternate" type="text/html" />
+<updated>2015-10-19T23:23:01+02:00</updated>
+<id>/</id>
+<entry>
+<title>Hello,world!</title>
+<link href="/blog/2015/08/23/hello-world.html" rel="alternate" type="text/html" title="Hello,world!" />
+<published>2015-08-23T00:00:00+02:00</published>
+<updated>2015-08-23T00:00:00+02:00</updated>
+<id>/blog/2015/08/23/hello-world</id>
+<content type="html" xml:base="/blog/2015/08/23/hello-world.html">&lt;p&gt;Oh well, it works now!&lt;br /&gt;
+Hey Internet! How’s going there?&lt;/p&gt;
+
+&lt;iframe width=&quot;420&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/dQw4w9WgXcQ&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;img src=&quot;{{ site.url }}/assets/blog/img/hqdefault.jpg&quot; alt=&quot;test&quot; /&gt;  &lt;/p&gt;
+
+&lt;h3 id=&quot;this-should-be-the-caption-of-the-image&quot;&gt;this should be the caption of the image&lt;/h3&gt;
+</content>
+<summary>Oh well, it works now!Hey Internet! How’s going there?</summary>
+</entry>
+</feed>

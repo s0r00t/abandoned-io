@@ -1,0 +1,7 @@
+exclude: ["Gemfile","Gemfile.lock","CNAME"]
+timezone: "Europe/Paris"
+gems:
+  - jemoji
+  - jekyll-sitemap
+  - jekyll-mentions
+  - jekyll-feed
